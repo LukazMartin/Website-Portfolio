@@ -48,7 +48,7 @@
 									<br><br>
 									<p><span class="image right"><img src="images/descarga.png" alt="" /></span>Similar as for Twitter, you can get the Access Key by creating a developer account on OpenAI. There are different models that can be selected <a href="https://platform.openai.com/docs/models/gpt-3" target="_blank">here</a></a>. To consider are the number of tokens to keep the free trial. As a rule of thumb a token are 4 characters or 0.75 words. For this reason I set the maximum of tokens to 52 so I get a short tweet.</p>
 									<br><br>
-									<p><span class="image left"><img src="images/social-icon-google-cloud-1200-630.png" alt="" /></span>The easiest way to get the script running is by creating a Virtual Instance under the Compute Engine Category from GCP. Keeping the instance running constantly is expensive and innecesary. For this reason I created a Task to wake up the instance at 11:55 and shut it down at 12:05. The cronjob that calls the script will run at 12:00.</p>
+									<p><span class="image left"><img src="images/social-icon-google-cloud-1200-630.png" alt="" /></span>The easiest way to get the script running is by creating a Virtual Instance under the Compute Engine Category from GCP. Keeping the instance running constantly is expensive and innecesary. For this reason I created a Task to wake up the instance, run a cronjob and shut it down.</p>
 									<br><br>
 									<p>Source: <a href="https://github.com/LukazMartin/chatgpt-twitter-bot" target="_blank">github</a></p>
 							</section>
